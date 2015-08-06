@@ -1,0 +1,9 @@
+	This is a game focused on strategy, and agility. 
+
+	This game is similar to ALONE(A rocket game obstacle avoidance thingy.)
+
+	Here is what the game will be roughly about:
+
+	1. The player is mounted on a forward-thrust rocket, and after blast off, the player will have to control the rocket's movement, and needs to avoid the surrounding obstacle.
+	2. The player can *Optionally* collect resources that is spreaded throughout the level, and can use that resources to upgrade their ship at the end of each game.
+	3. The player wins when they reach the very end of the map.
