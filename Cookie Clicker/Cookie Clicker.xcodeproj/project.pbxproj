@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FCDD85E1B712DD300DC74C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDD85D1B712DD300DC74C0 /* AppDelegate.swift */; };
+		3FCDD8601B712DD300DC74C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDD85F1B712DD300DC74C0 /* ViewController.swift */; };
+		3FCDD8631B712DD300DC74C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDD8611B712DD300DC74C0 /* Main.storyboard */; };
+		3FCDD8651B712DD300DC74C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDD8641B712DD300DC74C0 /* Assets.xcassets */; };
+		3FCDD8681B712DD300DC74C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDD8661B712DD300DC74C0 /* LaunchScreen.storyboard */; };
+		3FCDD8731B712DD300DC74C0 /* Cookie_ClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDD8721B712DD300DC74C0 /* Cookie_ClickerTests.swift */; };
+		3FCDD87E1B712DD300DC74C0 /* Cookie_ClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDD87D1B712DD300DC74C0 /* Cookie_ClickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FCDD86F1B712DD300DC74C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCDD8521B712DD300DC74C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCDD8591B712DD300DC74C0;
+			remoteInfo = "Cookie Clicker";
+		};
+		3FCDD87A1B712DD300DC74C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCDD8521B712DD300DC74C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCDD8591B712DD300DC74C0;
+			remoteInfo = "Cookie Clicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FCDD85A1B712DD300DC74C0 /* Cookie Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookie Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCDD85D1B712DD300DC74C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FCDD85F1B712DD300DC74C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FCDD8621B712DD300DC74C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FCDD8641B712DD300DC74C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FCDD8671B712DD300DC74C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FCDD8691B712DD300DC74C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCDD86E1B712DD300DC74C0 /* Cookie ClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cookie ClickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCDD8721B712DD300DC74C0 /* Cookie_ClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_ClickerTests.swift; sourceTree = "<group>"; };
+		3FCDD8741B712DD300DC74C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCDD8791B712DD300DC74C0 /* Cookie ClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cookie ClickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCDD87D1B712DD300DC74C0 /* Cookie_ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_ClickerUITests.swift; sourceTree = "<group>"; };
+		3FCDD87F1B712DD300DC74C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCDD8571B712DD300DC74C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDD86B1B712DD300DC74C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDD8761B712DD300DC74C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCDD8511B712DD300DC74C0 = {
+			isa = PBXGroup;
+			children = (
+				3FCDD85C1B712DD300DC74C0 /* Cookie Clicker */,
+				3FCDD8711B712DD300DC74C0 /* Cookie ClickerTests */,
+				3FCDD87C1B712DD300DC74C0 /* Cookie ClickerUITests */,
+				3FCDD85B1B712DD300DC74C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCDD85B1B712DD300DC74C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDD85A1B712DD300DC74C0 /* Cookie Clicker.app */,
+				3FCDD86E1B712DD300DC74C0 /* Cookie ClickerTests.xctest */,
+				3FCDD8791B712DD300DC74C0 /* Cookie ClickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCDD85C1B712DD300DC74C0 /* Cookie Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDD85D1B712DD300DC74C0 /* AppDelegate.swift */,
+				3FCDD85F1B712DD300DC74C0 /* ViewController.swift */,
+				3FCDD8611B712DD300DC74C0 /* Main.storyboard */,
+				3FCDD8641B712DD300DC74C0 /* Assets.xcassets */,
+				3FCDD8661B712DD300DC74C0 /* LaunchScreen.storyboard */,
+				3FCDD8691B712DD300DC74C0 /* Info.plist */,
+			);
+			path = "Cookie Clicker";
+			sourceTree = "<group>";
+		};
+		3FCDD8711B712DD300DC74C0 /* Cookie ClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDD8721B712DD300DC74C0 /* Cookie_ClickerTests.swift */,
+				3FCDD8741B712DD300DC74C0 /* Info.plist */,
+			);
+			path = "Cookie ClickerTests";
+			sourceTree = "<group>";
+		};
+		3FCDD87C1B712DD300DC74C0 /* Cookie ClickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDD87D1B712DD300DC74C0 /* Cookie_ClickerUITests.swift */,
+				3FCDD87F1B712DD300DC74C0 /* Info.plist */,
+			);
+			path = "Cookie ClickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FCDD8591B712DD300DC74C0 /* Cookie Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCDD8821B712DD300DC74C0 /* Build configuration list for PBXNativeTarget "Cookie Clicker" */;
+			buildPhases = (
+				3FCDD8561B712DD300DC74C0 /* Sources */,
+				3FCDD8571B712DD300DC74C0 /* Frameworks */,
+				3FCDD8581B712DD300DC74C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cookie Clicker";
+			productName = "Cookie Clicker";
+			productReference = 3FCDD85A1B712DD300DC74C0 /* Cookie Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FCDD86D1B712DD300DC74C0 /* Cookie ClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCDD8851B712DD300DC74C0 /* Build configuration list for PBXNativeTarget "Cookie ClickerTests" */;
+			buildPhases = (
+				3FCDD86A1B712DD300DC74C0 /* Sources */,
+				3FCDD86B1B712DD300DC74C0 /* Frameworks */,
+				3FCDD86C1B712DD300DC74C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCDD8701B712DD300DC74C0 /* PBXTargetDependency */,
+			);
+			name = "Cookie ClickerTests";
+			productName = "Cookie ClickerTests";
+			productReference = 3FCDD86E1B712DD300DC74C0 /* Cookie ClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FCDD8781B712DD300DC74C0 /* Cookie ClickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCDD8881B712DD300DC74C0 /* Build configuration list for PBXNativeTarget "Cookie ClickerUITests" */;
+			buildPhases = (
+				3FCDD8751B712DD300DC74C0 /* Sources */,
+				3FCDD8761B712DD300DC74C0 /* Frameworks */,
+				3FCDD8771B712DD300DC74C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCDD87B1B712DD300DC74C0 /* PBXTargetDependency */,
+			);
+			name = "Cookie ClickerUITests";
+			productName = "Cookie ClickerUITests";
+			productReference = 3FCDD8791B712DD300DC74C0 /* Cookie ClickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCDD8521B712DD300DC74C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HyperTech.io;
+				TargetAttributes = {
+					3FCDD8591B712DD300DC74C0 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J47QB26NK3;
+					};
+					3FCDD86D1B712DD300DC74C0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3FCDD8591B712DD300DC74C0;
+					};
+					3FCDD8781B712DD300DC74C0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3FCDD8591B712DD300DC74C0;
+					};
+				};
+			};
+			buildConfigurationList = 3FCDD8551B712DD300DC74C0 /* Build configuration list for PBXProject "Cookie Clicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FCDD8511B712DD300DC74C0;
+			productRefGroup = 3FCDD85B1B712DD300DC74C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCDD8591B712DD300DC74C0 /* Cookie Clicker */,
+				3FCDD86D1B712DD300DC74C0 /* Cookie ClickerTests */,
+				3FCDD8781B712DD300DC74C0 /* Cookie ClickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCDD8581B712DD300DC74C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDD8681B712DD300DC74C0 /* LaunchScreen.storyboard in Resources */,
+				3FCDD8651B712DD300DC74C0 /* Assets.xcassets in Resources */,
+				3FCDD8631B712DD300DC74C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDD86C1B712DD300DC74C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDD8771B712DD300DC74C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCDD8561B712DD300DC74C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDD8601B712DD300DC74C0 /* ViewController.swift in Sources */,
+				3FCDD85E1B712DD300DC74C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDD86A1B712DD300DC74C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDD8731B712DD300DC74C0 /* Cookie_ClickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCDD8751B712DD300DC74C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCDD87E1B712DD300DC74C0 /* Cookie_ClickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FCDD8701B712DD300DC74C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCDD8591B712DD300DC74C0 /* Cookie Clicker */;
+			targetProxy = 3FCDD86F1B712DD300DC74C0 /* PBXContainerItemProxy */;
+		};
+		3FCDD87B1B712DD300DC74C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCDD8591B712DD300DC74C0 /* Cookie Clicker */;
+			targetProxy = 3FCDD87A1B712DD300DC74C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FCDD8611B712DD300DC74C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCDD8621B712DD300DC74C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FCDD8661B712DD300DC74C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCDD8671B712DD300DC74C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FCDD8801B712DD300DC74C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FCDD8811B712DD300DC74C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FCDD8831B712DD300DC74C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Cookie Clicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hypertech.EricQian.Cookie-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3FCDD8841B712DD300DC74C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Cookie Clicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hypertech.EricQian.Cookie-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3FCDD8861B712DD300DC74C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cookie ClickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hypertech.EricQian.Cookie-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cookie Clicker.app/Cookie Clicker";
+			};
+			name = Debug;
+		};
+		3FCDD8871B712DD300DC74C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cookie ClickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hypertech.EricQian.Cookie-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cookie Clicker.app/Cookie Clicker";
+			};
+			name = Release;
+		};
+		3FCDD8891B712DD300DC74C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cookie ClickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hypertech.EricQian.Cookie-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cookie Clicker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FCDD88A1B712DD300DC74C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cookie ClickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hypertech.EricQian.Cookie-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cookie Clicker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCDD8551B712DD300DC74C0 /* Build configuration list for PBXProject "Cookie Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDD8801B712DD300DC74C0 /* Debug */,
+				3FCDD8811B712DD300DC74C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCDD8821B712DD300DC74C0 /* Build configuration list for PBXNativeTarget "Cookie Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDD8831B712DD300DC74C0 /* Debug */,
+				3FCDD8841B712DD300DC74C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FCDD8851B712DD300DC74C0 /* Build configuration list for PBXNativeTarget "Cookie ClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDD8861B712DD300DC74C0 /* Debug */,
+				3FCDD8871B712DD300DC74C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FCDD8881B712DD300DC74C0 /* Build configuration list for PBXNativeTarget "Cookie ClickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCDD8891B712DD300DC74C0 /* Debug */,
+				3FCDD88A1B712DD300DC74C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCDD8521B712DD300DC74C0 /* Project object */;
+}
